@@ -3,6 +3,10 @@
 // Первоначальный массив можно ввести с клавиатуры, либо задать на старте 
 // выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
 // лучше обойтись исключительно массивами.
+// Примеры:
+// [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
+// [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
+// [“Russia”, “Denmark”, “Kazan”] → []
 
 Console.Write("Введите количество элементов массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
@@ -23,17 +27,17 @@ string [] symbol(string [] stringArray)
     if(stringArray[i].Length <=3)
     y++;
   }
-  string [] rez = new string [y];
+  string [] rezult = new string [y];
   int j = 0;
   for (int i = 0;i<stringArray.Length;i++)
   {
     if(stringArray[i].Length <=3)
     {
-        rez[j] = stringArray[i];
+        rezult[j] = stringArray[i];
         j++;
     }
   }
-  return rez;
+  return rezult;
 }
 void printA(string [] stringArray)
 {
