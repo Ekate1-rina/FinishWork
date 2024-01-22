@@ -8,45 +8,28 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-Console.Write("Введите количество элементов массива: ");
-int n = Convert.ToInt32(Console.ReadLine());
-string [] stringArray = new string [n];
-void array(string [] stringArray)
+string[] array1 = new string[] {"Нello", "Denmark", "-2", ":)"};
+string[] array2 = new string[array1.Length];
+void Array(string[] array1, string[] array2)
 {
-  for (int i = 0;i<stringArray.Length;i++)
-  {
-     Console.WriteLine($"Введите {i+1} элемент массива ");
-     stringArray[i] = Console.ReadLine();
-  }
-}
-string [] symbol(string [] stringArray)
-{
-  int y = 0;
-  for (int i = 0;i<stringArray.Length;i++)
-  {
-    if(stringArray[i].Length <=3)
-    y++;
-  }
-  string [] rezult = new string [y];
-  int j = 0;
-  for (int i = 0;i<stringArray.Length;i++)
-  {
-    if(stringArray[i].Length <=3)
+    int y = 0;
+    for (int i = 0; i < array1.Length; i++)
     {
-        rezult[j] = stringArray[i];
-        j++;
+    if(array1[i].Length <= 3)
+        {
+        array2[y] = array1[i];
+        y++;
+        }
     }
-  }
-  return rezult;
-}
-void printA(string [] stringArray)
+}   
+void PrintArray(string[] array)
 {
-    Console.Write("[");
-    for (int i = 0;i<stringArray.Length;i++)
+  Console.Write("[");
+    for (int i = 0; i < array.Length; i++)
     {
-    Console.Write($"‘{stringArray[i]}’, ");
+        Console.Write($"{array[i]},");
     }
     Console.Write("]");
 }
-array(stringArray);
-printA(symbol(stringArray));
+Array(array1, array2);
+PrintArray(array2);

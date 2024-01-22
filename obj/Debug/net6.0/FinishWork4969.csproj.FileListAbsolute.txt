@@ -1,0 +1,15 @@
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/bin/Debug/net6.0/FinishWork4969
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/bin/Debug/net6.0/FinishWork4969.deps.json
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/bin/Debug/net6.0/FinishWork4969.runtimeconfig.json
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/bin/Debug/net6.0/FinishWork4969.dll
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/bin/Debug/net6.0/FinishWork4969.pdb
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.csproj.AssemblyReference.cache
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.AssemblyInfoInputs.cache
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.AssemblyInfo.cs
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.csproj.CoreCompileInputs.cache
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.dll
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/refint/FinishWork4969.dll
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.pdb
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/FinishWork4969.genruntimeconfig.cache
+/Users/ekaterinasemenova/Desktop/gb4969/ FinishWork4969/obj/Debug/net6.0/ref/FinishWork4969.dll
